@@ -1,11 +1,11 @@
 import Header from "../components/shared/Header";
 import Link from "next/link";
 
-export default function Home()  {
+export default function cv() {
 	return (
 		<div>
 			<Header />
-			<h1>INDEX PAGE</h1>
+			<h1>CV page</h1>
 		</div>
 	);
 }

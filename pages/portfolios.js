@@ -1,11 +1,12 @@
 import Header from "../components/shared/Header";
 import Link from "next/link";
 
-export default function Home()  {
+
+export default function Portfolios() {
 	return (
 		<div>
 			<Header />
-			<h1>INDEX PAGE</h1>
+			<h1>Portfolios page</h1>
 		</div>
 	);
 }
