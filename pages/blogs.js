@@ -4,10 +4,9 @@ import Header from "../components/shared/Header";
 
 export default function Blogs() {
 	return (
-		<div>
-			<Header />
+		<BaseLayout>
 			<h1>BLOGS PAGE</h1>
-		</div>
+		</BaseLayout>
 	);
 }
 	

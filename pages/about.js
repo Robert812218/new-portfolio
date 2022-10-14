@@ -1,13 +1,10 @@
-import Link from "next/link";
-import Header from "../components/shared/Header";
-
+import BaseLayout from "../components/layouts/BaseLayout";
 
 export default function About() {
 	return (
-		<div>
-			<Header />
-			<h1>ABOUT PAGE</h1>
-		</div>
+		<BaseLayout>
+			<h1>About page</h1>
+		</BaseLayout>
 	);
 }
 
