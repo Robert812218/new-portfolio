@@ -1,11 +1,12 @@
 import Header from "../components/shared/Header";
 import Link from "next/link";
+import BaseLayout from "../components/layouts/BaseLayout";
+
 
 export default function Home()  {
 	return (
-		<div>
-			<Header />
+		<BaseLayout>
 			<h1>INDEX PAGE</h1>
-		</div>
+		</BaseLayout>
 	);
 }
