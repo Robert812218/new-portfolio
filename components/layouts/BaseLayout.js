@@ -1,11 +1,13 @@
 import Header from "../shared/Header";
 
-export default function BaseLayout(props) {
-	return (
-		<>
-			<Header />
-			{props.children}
-		</>
-	);
+const BaseLayout = props => {
+
+  return (
+    <>
+      <Header />
+      {props.children}
+    </>
+  )
 }
 
+export default BaseLayout;
